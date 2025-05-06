@@ -1,0 +1,36 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  padding: 20px;
+  text-align: center;
+}
+
+.image-container {
+  margin-bottom: 40px;
+}
+
+img {
+  width: 400px;
+  height: auto;
+  border: 3px solid #333;
+  filter: grayscale(50%) brightness(90%) contrast(110%);
+  transition: transform 0.3s;
+}
+
+img:hover {
+  transform: scale(1.03);
+}
+
+p {
+  font-size: 0.9rem;
+  color: #555;
+}
+
+a {
+  color: #3366cc;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}

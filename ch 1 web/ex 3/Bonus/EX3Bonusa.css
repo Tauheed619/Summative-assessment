@@ -1,0 +1,27 @@
+/* div#A - Purple border + red drop shadow */
+#A {
+  border-color: purple;
+  box-shadow: 15px 15px 25px red;
+}
+
+/* div#B - Green border + inset black shadow */
+#B {
+  border-color: lime;
+  box-shadow: inset 15px 15px 25px black;
+}
+
+/* div#C - Rounded corners + layered multi-color shadows */
+#C {
+  border-color: orange;
+  border-radius: 50px;
+  box-shadow:
+    0 0 0 8px blue,
+    0 0 0 16px red,
+    0 0 0 24px green;
+}
+
+/* div#D - Brown border + duplicated text effect */
+#D {
+  border-color: brown;
+  text-shadow: 3px 3px 2px black;
+}

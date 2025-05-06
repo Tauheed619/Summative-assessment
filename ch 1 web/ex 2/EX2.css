@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    background-color: #111;
+    color: #f1f1f1;
+}
+
+.navbar {
+    background-color: #222;
+    padding: 10px;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.navbar a {
+    color: #f1f1f1;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+.section {
+    padding: 20px;
+    border-bottom: 1px solid #333;
+}
+
+.button-link {
+    background-color: #e50914;
+    padding: 8px 16px;
+    border-radius: 4px;
+    color: white !important;
+    text-decoration: none;
+    margin-left: 15px;
+}

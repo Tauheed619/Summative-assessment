@@ -1,0 +1,61 @@
+/* General styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f8f8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+main {
+  background: #fff;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+label {
+  display: block;
+  margin-top: 1rem;
+  font-weight: bold;
+}
+
+input {
+  padding: 0.5rem;
+  width: 100%;
+  margin-top: 0.5rem;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+input:focus {
+  border-color: #007BFF;
+  outline: none;
+}
+
+/* Button styles */
+button {
+  margin-top: 1.5rem;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Output styling */
+#total {
+  margin-top: 1rem;
+  font-size: 1.25rem;
+  font-weight: bold;
+}
